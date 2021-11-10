@@ -1,0 +1,88 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Guests</title>
+    <!-- MDB icon -->
+    <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" />
+    <!-- Google Fonts Roboto -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+    />
+    <!-- MDB -->
+    <link rel="stylesheet" href="css/mdb.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+      html,
+      body,
+      .intro {
+        height: 100%;
+      }
+      .hi {
+        background: rgb(0,74,152);
+        background: linear-gradient(173deg, rgba(0,74,152,1) 29%, rgba(88,132,179,1) 100%, rgba(219,219,219,1) 100%);
+        height: 100vh;
+      }
+      .btn-outline-info:hover{
+        background: rgb(0,74,152);
+        color: white;
+      }
+    </style>
+  </head>
+  <body class="bg-light">
+    <!-- Start project here-->
+    <header>
+      <!-- Navbar -->
+        
+      <!-- Navbar -->
+    </header>
+   
+    <main class="">
+      <div class="container-fluid">
+        <div class="row">
+          
+          <a class="navbar-brand" href="index.html">AIRBNB</a>
+          <div class="col-sm-6 col-md-5 col-lg-6 hi d-flex align-items-center justify-content-center">
+            
+           <div style="color: white;"><h1>What kind of space will guests have?</h1></div>
+          </div>
+            <div class="col-sm-6 col-md-5 offset-md-2 col-lg-6 offset-lg-0" style="margin-top: 290px;">
+              <button type="button" class="btn btn-outline-info btn-rounded btn-lg btn-block" data-mdb-ripple-color="dark">An entire place</button>
+              <button type="button" class="btn btn-outline-info btn-rounded btn-lg btn-block" data-mdb-ripple-color="dark">A private room</button>
+              <button type="button" class="btn btn-outline-info btn-rounded btn-lg btn-block" data-mdb-ripple-color="dark">A shared room</button>
+             
+              <div class="buttons-bne" style="position: relative; top: 255px; display: flex; justify-content: space-between;">
+              <a href="index.html"><button type="button" class="btn btn-primary btn-rounded">Back</button>
+              <a href="place.html"><button type="button" class="btn btn-primary btn-rounded">Next</button>
+              </div>
+            </div>
+            
+          </div>
+      </div>
+    </main>
+    <footer>
+      <!-- Footer -->
+<footer class="bg-light text-center ">
+ 
+
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+    © 2021 Copyright:
+    <a class="text-dark" href="https://innomatics.in/">Innomatics</a>
+  </div>
+  <!-- Copyright -->
+    </footer>
+    <!-- End project here-->
+
+    <!-- MDB -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- Custom scripts -->
+    <script type="text/javascript"></script>
+  </body>
+</html>
